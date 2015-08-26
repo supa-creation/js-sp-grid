@@ -1,0 +1,32 @@
+{
+  "name": "sp-grid",
+  "version": "0.0.1",
+  "authors": [
+    "supa-creation.com <contact@supa-creation.com>"
+  ],
+  "description": "sp-grid is a Javascript plugin to generate a Responsive CSS grid system",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/supa-creation/sp-grid.git"
+  },
+  "main": [
+    "sp-grid.min.js"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "javascript",
+    "grid",
+    "responsive",
+  ],
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "tests",
+    "node_modules"
+  ],
+  "license": "MIT"
+}
