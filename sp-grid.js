@@ -137,6 +137,6 @@
     f.type = 'text/css';
     f.media = 'screen';
 
-    var w = document.getElementById('sp-grids');
+    var w = document.getElementById('sp-grid');
     w.parentNode.insertBefore(f, w);
 })(document);
