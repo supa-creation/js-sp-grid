@@ -65,9 +65,9 @@
     function cssFloat(s) {
         s = sizeToString(s);
 
-        return css('.' + s + 'fN', {float: 'left'}) +
+        return css('.' + s + 'fN', {float: 'none'}) +
             css('.' + s + 'fL', {float: 'left'}) +
-            css('.' + s + 'fL', {float: 'left'});
+            css('.' + s + 'fR', {float: 'right'});
     }
 
     function cssTextAlign(s) {
@@ -130,6 +130,8 @@
             cssSpace(i) +
             '}';
     }
+
+    console.log(s);
 
     var f = document.createElement('link');
     f.href = 'data:text/css;base64,' + btoa(s);
